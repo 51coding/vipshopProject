@@ -1,0 +1,198 @@
+﻿
+.main {
+  max-width: 10rem;
+  margin: 0 auto;
+}
+.slide {
+  height: 3rem;
+  overflow: hidden;
+  position: relative;
+}
+.slide ul {
+  height: 100%;
+}
+.slide ul li {
+  width: 10rem;
+  height: 100%;
+  float: left;
+}
+.slide ul li a {
+  display: block;
+  height: 100%;
+}
+
+.slide .tab {
+  position: absolute;
+  left: 0;
+  bottom: 0.09090909rem;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+.slide .tab span {
+  width: 0.18181818rem;
+  height: 0.18181818rem;
+  display: inline-block;
+  background: red;
+  border-radius: 0.09090909rem;
+}
+.slide .tab span.on {
+  background: yellow;
+}
+
+.tip {
+  height: 1.3030303rem;
+}
+.tip a {
+  height: 100%;
+  display: block;
+}
+
+.productClass ul {
+  display: -webkit-flex;
+  display: flex;
+}
+.productClass ul li {
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.discount .title {
+  height: 1.3030303rem;
+}
+.discount a {
+  display: block;
+}
+.discount dl {
+  display: -webkit-flex;
+  display: flex;
+}
+.discount dl dt {
+  -webkit-flex: 1;
+  flex: 1;
+}
+.discount dl dd {
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.publicBuy .buy {
+  height: 2.60606061rem;
+}
+.publicBuy a {
+  display: block;
+}
+.publicBuy ul {
+  display: -webkit-flex;
+  display: flex;
+}
+.publicBuy ul li {
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.bras .buy {
+  height: 2.87878788rem;
+  overflow: hidden;
+}
+.bras ul {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  background: #ffcced;
+  padding: 0.12121212rem 0 0.12121212rem 0.15151515rem;
+}
+.bras ul li {
+  width: 2.28787879rem;
+  height: 2.15151515rem;
+}
+.bras ul li a {
+  display: block;
+  height: 100%;
+}
+
+.adMap {
+  height: 2.93939394rem;
+}
+.adMap a {
+  display: block;
+  height: 100%;
+}
+
+.skin {
+  height: 4.6969697rem;
+}
+.skin ul {
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+}
+.skin ul li {
+-webkit-flex: 1;
+  flex: 1;
+}
+
+.found {
+  height: 2.07575758rem;
+}
+.found .find {
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+}
+.found .find a {
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.hotGoodShop .top {
+  height: 2.10606061rem;
+}
+.hotGoodShop a {
+  display: block;
+}
+.hotGoodShop ul {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  margin-bottom: 0.28787879rem;
+}
+.hotGoodShop ul li {
+  width: 2.06060606rem;
+  height: 2.45454545rem;
+  padding: 0.15151515rem 0;
+  font-size: 0.3030303rem;
+  color: #9e1315;
+  text-align: center;
+  background: #f1f1f1;
+}
+.hotGoodShop ul li a {
+  width: 1.78787879rem;
+  height: 1.89393939rem;
+  margin: auto;
+  box-shadow: 0.01515152rem 0.01515152rem 0.07575758rem #999999;
+}
+.hotGoodShop ul li span {
+  line-height: 0.71212121rem;
+}
+.vipapp {
+  padding: 0.24242424rem 0.36363636rem;
+}
+.vipapp div {
+  height: 1.09090909rem;
+}
+.vipapp .vipBg {
+  width: 5.8030303rem;
+  background: url('../img/vipbg.jpg');
+  background-size:100% 100%;
+}
+.vipapp .appdownload {
+  width: 1.84848485rem;
+  height: 0.72727273rem;
+  border: 0.03030303rem solid #cf3e8e;
+  text-align: center;
+  line-height: 0.72727273rem;
+  font-size: 0.36363636rem;
+}

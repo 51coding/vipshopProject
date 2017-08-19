@@ -1,0 +1,130 @@
+/*ѡ�*/
+.WX_content {
+  width: 100%;
+}
+.WX_content .WX_navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.WX_content .WX_navbar .navbar-item {
+  flex: 1;
+  font-size: 0.39393939rem;
+  padding: 0.24242424rem 0;
+  text-align: center;
+  color: #434343;
+  font-family: serif, '΢���ź�';
+  text-shadow: 0 0 0.04545455rem rgba(0, 0, 0, 0.4);
+  border-bottom: 0.01515152rem solid #dddddd;
+}
+.WX_content .WX_navbar .navbar-item.navbar-item_on {
+  background: #eaeaea;
+}
+.WX_content .WX_navbar .navbar-item:not(:last-child) {
+  border-right: 0.01515152rem solid #cccccc;
+}
+.WX_content .page_wrap {
+  width: 10rem;
+  height: 9.6969697rem;
+  overflow: hidden;
+  position: relative;
+}
+.WX_content .page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: translateX(10rem);
+  display: block;
+  transition: 0.5s;
+  background: #ffffff;
+  opacity: 0;
+}
+.WX_content .page:nth-of-type(1) {
+  -webkit-overflow-scrolling: touch;
+}
+.WX_content .page_on {
+  transform: translateX(0);
+  opacity: 1;
+}
+.weui-cell {
+  display: block;
+  font-size: 0.33333333rem;
+  border-bottom: 0.03030303rem solid #dddddd;
+}
+.weui-cell__hd {
+  padding: 0.3030303rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.weui-cell__bd {
+  display: inline-block;
+  vertical-align: middle;
+}
+.weui-cell__ft {
+  font-size: 0.42424242rem;
+  font-weight: bold;
+  color: #cdcdcd;
+  margin-left: 1.21212121rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.weui-cells img {
+  width: 1.27272727rem;
+  height: 1.27272727rem;
+  margin-right: 0.45454545rem;
+  box-shadow: 0 0 0.03030303rem #434343;
+}
+.weui-grid__icon {
+  padding: 0.37878788rem 0;
+  text-align: center;
+  font-size: 0.34848485rem;
+}
+.weui-grid__icon img {
+  width: 1.06060606rem;
+  height: 1.06060606rem;
+}
+.WX_content .page p {
+  vertical-align: sub;
+  display: inline-block;
+  /*������������*/
+  width: 5.68181818rem;
+  word-break: keep-all;
+  /* ������ */
+  white-space: nowrap;
+  /* ������ */
+  overflow: hidden;
+  /* ���ݳ�������ʱ���س��򲿷ֵ����� */
+  text-overflow: ellipsis;
+}
+.page .page_on {
+  overflow: hidden;
+}
+.WX_content .weui-cells {
+  margin: 0;
+  padding: 0;
+}
+.page .weui-grids .weui-grid__label {
+  width: 100%;
+  text-align: center;
+  font-size: 0.34848485rem;
+  padding: 0.37878788rem 0;
+}
+.weui-grid {
+  border-right: 0.03030303rem solid #dddddd;
+  border-bottom: 0.03030303rem solid #dddddd;
+}
+.weui-grid:nth-child(3n+3) {
+  border-right: none;
+}
+.page .weui-grid {
+  /*padding: 0.5rem 0.1rem;*/
+}
+.page .weui-grid {
+  position: relative;
+  float: left;
+  /*padding: 0.6rem .3rem;*/
+  width: 33.33333333%;
+  box-sizing: border-box;
+}
